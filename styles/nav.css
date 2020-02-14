@@ -1,0 +1,108 @@
+body{
+    margin: 0px;
+    background-color: #121212;
+}
+.navigationWrapper{
+    height: 50px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 20px 20px;
+    font-family: 'Lato', Tahoma, sans-serif;
+}
+
+.navigationWrapper > .leftColumn > .logo{
+    width: 175px;
+}
+
+.navigationWrapper > .leftColumn > .logo img{
+    height: 70px;
+    filter: invert(100%);
+}
+
+.navigationWrapper > .centerColumn{
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-gap: 10px;
+    width: 450px;
+}
+
+.navigationWrapper > .centerColumn > .explore{
+    display: flex;
+    justify-content: left;
+    grid-row: 1;
+    grid-column: 1;
+    color: #ffdd40;
+}
+
+
+.navLinks{
+    grid-row: 2;
+    grid-column: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: left;
+    width: 425px;
+}
+
+.navLinks >.navLink{
+    text-align: center;
+    font-weight: 900;
+}
+
+.navLinks >.spark{
+    margin-left: 30px;
+    color: #c7c9d3;
+}
+
+.navLinks >.spark i{
+    margin-left: 5px;
+    margin-right: 50px;
+}
+
+.navigationWrapper > .rightColumn{
+    margin-left: 25px;
+    width: 450px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.btn{
+    background-color: #292A2F;
+    font-family: 'Lato', Tahoma, sans-serif;
+    font-size: 1em;
+    font-weight: 700;
+    color: white;
+    padding: 15px 20px;
+    border: 1px solid #292A2F;
+    border-radius: 2px;
+    outline: none;
+    transition: 0.3s;
+}
+.navigationWrapper > .rightColumn > .createDropdown{
+    width:125px;
+}
+
+.navigationWrapper > .rightColumn > .createDropdown i{
+    color: #3BC969;
+    margin-left: 5px;
+}
+
+.navigationWrapper > .rightColumn > .searchIcon{
+    width: 50px;
+    margin-top: 12px;
+    font-size: 150%;
+}
+
+.navigationWrapper > .rightColumn > .logIn{
+    width: 90px;
+}
+
+.navigationWrapper > .rightColumn > .signUp{
+    width: 110px;
+}
+
+
+
+

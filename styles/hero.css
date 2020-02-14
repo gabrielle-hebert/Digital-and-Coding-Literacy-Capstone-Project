@@ -1,0 +1,76 @@
+.heroSection{
+    background: rgb(41,44,53);
+    background: linear-gradient(90deg, rgba(41,44,53,1) 0%, rgba(38,41,50,1) 35%, rgba(0,0,0,1) 100%);
+    padding: 45px 0px 45px 40px;
+    height: 340px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Lato', Tahoma, sans-serif;
+}
+
+.heroSection > .leftElements > .topHeading{
+    width: 475px;
+    color: #c7c9d3;
+    font-size: 1.75em;
+    font-weight: 300;
+}
+
+.heroSection > .leftElements > .topHeading > .specialHero{
+    font-weight: 700;
+    color: white;
+}
+
+.heroSection > .leftElements > .bottomHeading{
+    width: 475px;
+    color: #c7c9d3;
+    font-size: 1.5em;
+    padding: 15px 0px;
+    font-weight: 300;
+    line-height: 150%;
+}
+
+.heroSection > .leftElements > .heroBtns{
+    width: 365px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.heroSection > .leftElements > .heroBtns > .heroSignUp{
+    background-color: #3BC969;
+    padding: 10px 15px;
+    font-size: 1.5em;
+    border-radius: 3px;
+}
+
+.heroSection >.leftElements > .heroBtns > .heroLearn{
+    background-color: black;
+    color: white;
+    font-size: 1.5em;
+    padding: 10px 15px;
+    border-radius: 3px;
+}
+
+.heroSection > .rightElements{
+    color: white;
+    width: 600px;
+    margin-left: 50px;
+}
+
+.heroSection > .rightElements > .rightText{
+    margin-left: 10px;
+}
+
+.heroSection > .rightElements > .rightText > .blueText{
+    color: skyblue;
+}
+
+.heroSection > .rightElements > .screenShotContainer img{
+    object-fit: cover;
+    margin-top: 10px;
+    width: 455px;
+    height: 355px;
+}

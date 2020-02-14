@@ -1,0 +1,49 @@
+
+.bottomBar {
+    display: grid;
+    color: white;
+    background-color: #292A2F;
+    font-family: 'Lato', Tahoma, sans-serif;
+    grid-auto-flow: column;
+    height: 45px;
+}
+
+.bottomBar > .forTeams{
+    border-style: solid;
+    border-color:#c7c9d3;
+    border-width: thin;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bottomBar > .forEducation{
+    border-style: solid;
+    border-color:#c7c9d3;
+    border-width: thin;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bottomBar > .forPrivacy{
+    border-style: solid;
+    border-color:#c7c9d3;
+    border-width: thin;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bottomBar > .forWriting{
+    border-style: solid;
+    border-color:#c7c9d3;
+    border-width: thin;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.specialBottom {
+    font-weight: 900;
+}
